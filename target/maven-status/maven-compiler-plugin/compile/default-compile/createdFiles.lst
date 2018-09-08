@@ -1,0 +1,6 @@
+com\home\test\keygenerator\KeyGen.class
+com\home\test\main\Worker.class
+com\home\test\model\License.class
+com\home\test\utils\DecryptionManager.class
+com\home\test\license_generator\App.class
+com\home\test\main\Main.class
