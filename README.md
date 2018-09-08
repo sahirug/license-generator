@@ -1,0 +1,2 @@
+# license-generator
+Generate license
