@@ -12,16 +12,20 @@ public class License {
     Date startDate;
     Date endDate;
     String computerId;
+    int agentCount;
+    int threadCount;
 
     public License() {
 
     }
 
-    public License(String name, Date startDate, Date endDate, String computerId) {
+    public License(String name, Date startDate, Date endDate, String computerId, int agentCount, int threadCount) {
         this.name = name;
         this.startDate = startDate;
         this.endDate = endDate;
         this.computerId = computerId;
+        this.agentCount = agentCount;
+        this.threadCount = threadCount;
     }
 
     public String getName() {
@@ -54,5 +58,21 @@ public class License {
 
     public void setComputerId(String computerId) {
         this.computerId = computerId;
+    }
+
+    public int getAgentCount() {
+        return agentCount;
+    }
+
+    public void setAgentCount(int agentCount) {
+        this.agentCount = agentCount;
+    }
+
+    public int getThreadCount() {
+        return threadCount;
+    }
+
+    public void setThreadCount(int threadCount) {
+        this.threadCount = threadCount;
     }
 }
